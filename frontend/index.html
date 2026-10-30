@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conversation Insights</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📞</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">📞</span>
+      <div>
+        <div class="brand-name">Conversation Insights</div>
+        <div class="brand-sub">Support call analysis</div>
+      </div>
+    </div>
+    <nav aria-label="Sections">
+      <button class="nav-item active" data-view="analyze">Analyze a transcript</button>
+      <button class="nav-item" data-view="dashboard">Dashboard</button>
+      <button class="nav-item" data-view="conversations">Conversations</button>
+      <button class="nav-item" data-view="batch">Batch processing</button>
+      <button class="nav-item" data-view="evaluation">Evaluation</button>
+    </nav>
+    <div class="sidebar-foot">
+      <div id="provider-status" class="provider">Checking server…</div>
+      <button class="btn small sidebar-btn" id="btn-test-llm">Test model connection</button>
+      <div id="llm-test-result" class="provider" role="status"></div>
+      <a href="/docs" target="_blank" rel="noopener">API documentation</a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ============================================================ analyze -->
+    <section id="view-analyze" class="view active" aria-labelledby="h-analyze">
+      <header class="view-head">
+        <h1 id="h-analyze">Analyze a transcript</h1>
+        <p>Paste a support conversation in English, Hindi or Hinglish, one turn per line. Phone numbers, emails, UPI IDs and similar details are masked before the text is sent to the model.</p>
+      </header>
+      <div class="analyze-grid">
+        <div class="panel">
+          <label for="transcript" class="field-label">Transcript</label>
+          <textarea id="transcript" rows="14" placeholder="Agent: Hello, how can I help you?&#10;Customer: My rent payment failed but the money was deducted..."></textarea>
+          <div class="row">
+            <label class="check"><input type="checkbox" id="save-result"> Save to database</label>
+            <span class="spacer"></span>
+            <button class="btn ghost" id="btn-example">Load an example</button>
+            <button class="btn primary" id="btn-analyze">Analyze</button>
+          </div>
+          <p class="hint" id="analyze-msg" role="status"></p>
+        </div>
+        <div id="analyze-result" class="result-area">
+          <div class="empty">Results appear here: the masked conversation, extracted labels, summary, next action and the agent checklist.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ dashboard -->
+    <section id="view-dashboard" class="view" aria-labelledby="h-dash">
+      <header class="view-head">
+        <h1 id="h-dash">Dashboard</h1>
+        <p>Trends across every conversation stored in the database.</p>
+      </header>
+      <div class="filters" id="dash-filters"></div>
+      <div id="dash-body"></div>
+    </section>
+
+    <!-- ============================================================ conversations -->
+    <section id="view-conversations" class="view" aria-labelledby="h-conv">
+      <header class="view-head">
+        <h1 id="h-conv">Conversations</h1>
+        <p>Search stored conversations and open one to see its full analysis.</p>
+      </header>
+      <div class="filters" id="conv-filters">
+        <input type="search" id="conv-search" placeholder="Search transcripts, summaries or ids" aria-label="Search">
+      </div>
+      <div class="conv-layout">
+        <div class="panel table-panel">
+          <div class="table-wrap"><table id="conv-table"></table></div>
+          <div class="pager">
+            <span id="conv-count"></span>
+            <span class="spacer"></span>
+            <button class="btn ghost small" id="conv-prev">Previous</button>
+            <button class="btn ghost small" id="conv-next">Next</button>
+          </div>
+        </div>
+        <div id="conv-detail" class="result-area">
+          <div class="empty">Select a conversation to see its details.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ batch -->
+    <section id="view-batch" class="view" aria-labelledby="h-batch">
+      <header class="view-head">
+        <h1 id="h-batch">Batch processing</h1>
+        <p>Process many conversations in the background. Conversations already processed by the model currently selected are skipped unless you choose to reprocess them; switching to a different model processes them again.</p>
+      </header>
+      <div class="batch-grid">
+        <div class="panel">
+          <h2>Upload a CSV</h2>
+          <p class="hint">Required columns: <code>conversation_id</code> and <code>transcript</code>. Optional: <code>language</code>. Maximum 10 MB.</p>
+          <input type="file" id="csv-file" accept=".csv,text/csv" aria-label="CSV file">
+          <div class="row">
+            <label class="check"><input type="checkbox" id="csv-reprocess"> Reprocess existing rows</label>
+            <label class="inline">Limit <input type="number" id="csv-limit" min="1" placeholder="all"></label>
+            <span class="spacer"></span>
+            <button class="btn primary" id="btn-upload">Upload and process</button>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>Use the sample dataset</h2>
+          <p class="hint">Processes the 300 synthetic conversations in <code>data/conversations.csv</code>. With a paid API, try a limit of 10–20 first.</p>
+          <div class="row">
+            <label class="check"><input type="checkbox" id="sample-reprocess"> Reprocess existing rows</label>
+            <label class="inline">Limit <input type="number" id="sample-limit" min="1" placeholder="all"></label>
+            <span class="spacer"></span>
+            <button class="btn primary" id="btn-sample">Process sample data</button>
+          </div>
+        </div>
+      </div>
+      <div id="batch-job" class="panel job" hidden></div>
+    </section>
+
+    <!-- ============================================================ evaluation -->
+    <section id="view-evaluation" class="view" aria-labelledby="h-eval">
+      <header class="view-head">
+        <h1 id="h-eval">Evaluation</h1>
+        <p>Accuracy on the held-out test set (<code>data/test.csv</code>), compared with a TF-IDF baseline.</p>
+      </header>
+      <div class="row">
+        <button class="btn primary" id="btn-eval">Run evaluation</button>
+        <span class="hint" id="eval-msg" role="status"></span>
+      </div>
+      <div id="eval-job" class="panel job" hidden></div>
+      <div id="eval-body"></div>
+    </section>
+  </main>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-10-10T18:00:32",
+  "test_file": "C:\\GitHub\\convo-insights\\data\\test.csv",
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "n_test": 100,
+  "llm": {
+    "intent": {
+      "accuracy": 0.97,
+      "macro_f1": 0.983,
+      "n": 100
+    },
+    "sentiment": {
+      "accuracy": 0.93,
+      "macro_f1": 0.948,
+      "n": 100
+    },
+    "resolution_status": {
+      "accuracy": 0.82,
+      "macro_f1": 0.839,
+      "n": 100
+    },
+    "priority": {
+      "accuracy": 0.81,
+      "macro_f1": 0.813,
+      "n": 100
+    }
+  },
+  "agent_qa_accuracy": {
+    "greeted": 1.0,
+    "verified_details": 1.0,
+    "showed_empathy": 1.0,
+    "offered_resolution": 0.948
+  },
+  "intent_by_language": {
+    "english": {
+      "accuracy": 0.957,
+      "macro_f1": 0.977,
+      "n": 69
+    },
+    "hinglish": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "n": 31
+    }
+  },
+  "operational": {
+    "invalid_output_rate": 0.03,
+    "needed_retry_rate": 0.0,
+    "latency_ms_mean": 11151.5,
+    "latency_ms_p95": 30956.3
+  },
+  "baseline": {
+    "intent": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "n": 100
+    },
+    "sentiment": {
+      "accuracy": 0.91,
+      "macro_f1": 0.897,
+      "n": 100
+    },
+    "resolution_status": {
+      "accuracy": 0.95,
+      "macro_f1": 0.957,
+      "n": 100
+    },
+    "latency_ms_mean": 1.109
+  },
+  "n_rows_with_errors": 22
+}

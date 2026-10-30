@@ -1,0 +1,1255 @@
+conversation_id,language,transcript,intent,sentiment,resolution_status,priority,qa_greeted,qa_verified_details,qa_showed_empathy,qa_offered_resolution
+conv_0001,hinglish,"Agent: Namaste, RentEasy support se Rahul baat kar raha hoon. Bataiye kya help karun?
+Customer: Rs 2500 ka plan liya tha, relationship manager ne ek baar bhi call nahi kiya. Bas status jaanna tha.
+Agent: Accha. Plan 30 din extend kar diya hai aur naya relationship manager assign kar diya hai.
+Customer: Thank you, aapne bahut help kiya.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",subscription_plan,positive,resolved,low,1,0,0,1
+conv_0002,english,"Agent: Hello, thank you for calling RentEasy support, this is Rahul. How may I help you?
+Customer: I was charged twice for the same rent payment transaction.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 8748245888, booking ID RE377370. I just want to know the status and what happens next.
+Agent: Okay. I checked with the gateway; the amount was credited to the owner this morning and I've sent the UTR to your email.
+Customer: Perfect, I appreciate the quick help.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",payment_issue,positive,resolved,low,1,1,0,1
+conv_0003,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Rahul. Kaise madad karun?
+Customer: Rs 12000 ka plan liya tha, relationship manager ne ek baar bhi call nahi kiya.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 7497478786 hai, booking ID RE472528. Please check kar dijiye.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Plan 30 din extend kar diya hai aur naya relationship manager assign kar diya hai.
+Customer: Thank you, aapne bahut help kiya.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",subscription_plan,positive,resolved,low,1,1,1,1
+conv_0004,english,"Agent: Hello, thank you for calling RentEasy support, this is Arjun. How may I help you?
+Customer: My plan expired before I could use all the contacts; I want an extension.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 9524806516, booking ID RE774079. I am fed up with your service, this is unacceptable.
+Agent: I understand, and I apologise for the trouble this has caused. As per policy plan amounts are non-refundable, so I can't do anything here.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Thank you for your patience. Have a good day.",subscription_plan,negative,unresolved,high,1,1,1,1
+conv_0005,english,"Agent: Hello, thank you for calling RentEasy support, this is Neha. How may I help you?
+Customer: I've used 9 contacts from my plan and none of the owners are responding.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 9668132202. The ID is RE363626. My email is user576@gmail.com. I just want to know the status and what happens next.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: Okay. Please let me know if anything changes.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",owner_unresponsive,neutral,unresolved,medium,1,1,1,0
+conv_0009,english,"Agent: Good morning, welcome to RentEasy, Rahul here. What can I do for you today?
+Customer: I ordered a rental agreement 8 days ago and still haven't received the e-stamped copy. I just want to know the status and what happens next.
+Agent: Okay. I've raised a correction request; the revised agreement will be delivered within 48 hours.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",rental_agreement,neutral,partially_resolved,medium,1,0,0,1
+conv_0012,english,"Agent: Good morning, welcome to RentEasy, Priya here. What can I do for you today?
+Customer: I ordered a rental agreement 3 days ago and still haven't received the e-stamped copy. I just want to know the status and what happens next.
+Agent: Hmm, let me see. I have corrected the agreement and sent the updated copy to your registered email just now.
+Customer: Perfect, I appreciate the quick help.
+Agent: Thank you for your patience. Have a good day.",rental_agreement,positive,resolved,low,1,0,0,1
+conv_0013,hinglish,"Agent: Namaste, RentEasy support se Arjun baat kar raha hoon. Bataiye kya help karun?
+Customer: Owner mera security deposit wapas nahi de raha, flat bilkul theek condition mein chhoda tha. Aapki service bilkul bekaar hai, koi sunta hi nahi.
+Agent: Accha. Owner aur tenant ka deposit dispute hamare scope mein nahi hai.
+Customer: Bilkul bekaar experience hai. Abhi tak kuch nahi hua.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",deposit_refund,negative,unresolved,high,1,0,0,1
+conv_0014,english,"Agent: Good morning, welcome to RentEasy, Kavya here. What can I do for you today?
+Customer: I cancelled the booking and was promised a refund of my token amount of Rs 8000, but it's been 9 days.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 6781057736. The ID is RE544151. My email is user859@gmail.com. This is the third time I am calling about this.
+Agent: I understand, and I apologise for the trouble this has caused. Deposit disputes between tenant and owner are outside our scope, so I can't intervene there.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Thank you for your patience. Have a good day.",deposit_refund,negative,unresolved,high,1,1,1,1
+conv_0015,english,"Agent: Hello, thank you for calling RentEasy support, this is Imran. How may I help you?
+Customer: The painter left the work half done and isn't answering calls.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 7144913399, booking ID RE423232. Can you please check this for me?
+Agent: I understand, and I apologise for the trouble this has caused. I've rescheduled the service and a technician is assigned for 4 PM today.
+Customer: Thank you so much, that was really helpful!
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",home_services,positive,resolved,low,1,1,1,1
+conv_0019,english,"Agent: Good morning, welcome to RentEasy, Kavya here. What can I do for you today?
+Customer: The painter left the work half done and isn't answering calls. I just want to know the status and what happens next.
+Agent: I understand, and I apologise for the trouble this has caused. I've rescheduled the service and a technician is assigned for 4 PM today.
+Customer: Perfect, I appreciate the quick help.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",home_services,positive,resolved,low,1,0,1,1
+conv_0021,hinglish,"Agent: Namaste, RentEasy support se Neha baat kar raha hoon. Bataiye kya help karun?
+Customer: Owner mera security deposit wapas nahi de raha, flat bilkul theek condition mein chhoda tha. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Finance team ko refund bhej diya hai, 5-7 working days mein aa jayega.
+Customer: Theek hai, par time pe nahi hua toh complaint karunga.
+Agent: Dhanyavaad, aapka din accha ho.",deposit_refund,negative,partially_resolved,high,1,0,1,1
+conv_0022,english,"Agent: Good morning, welcome to RentEasy, Arjun here. What can I do for you today?
+Customer: I paid my rent of Rs 40000 by credit card yesterday but the owner says it's not credited.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 7394846763. The ID is RE561239. My email is user89@gmail.com. I just want to know the status and what happens next.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. The duplicate charge is confirmed; the reversal will reach your account within 5 to 7 working days.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",payment_issue,neutral,partially_resolved,medium,1,1,1,1
+conv_0024,english,"Agent: Hello, thank you for calling RentEasy support, this is Vikram. How may I help you?
+Customer: I cancelled the booking and was promised a refund of my token amount of Rs 18500, but it's been 11 days. I just want to know the status and what happens next.
+Agent: Okay. I've sent the refund to our finance team; it will be credited within 5 to 7 working days.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",deposit_refund,neutral,partially_resolved,medium,1,0,0,1
+conv_0027,english,"Agent: Hello, thank you for calling RentEasy support, this is Imran. How may I help you?
+Customer: There's a mistake in my rental agreement, the rent is written as Rs 25000, which is wrong.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 6643271261, booking ID RE778998. Honestly this is ridiculous, I am really frustrated.
+Agent: Hmm, let me see. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Thank you for your patience. Have a good day.",rental_agreement,negative,unresolved,high,1,1,0,0
+conv_0028,english,"Agent: Hello, thank you for calling RentEasy support, this is Vikram. How may I help you?
+Customer: The owner I contacted through your app stopped replying after I said I would visit. I just want to know the status and what happens next.
+Agent: Okay. I've credited the contact back to your account and we will call the owner and update you within 24 hours.
+Customer: Okay, I'll wait for the update then.
+Agent: Thank you for your patience. Have a good day.",owner_unresponsive,neutral,partially_resolved,medium,1,0,0,1
+conv_0029,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Kavya. Kaise madad karun?
+Customer: Maine 2 din pehle rental agreement order kiya tha, abhi tak e-stamp wali copy nahi aayi. Aapki service bilkul bekaar hai, koi sunta hi nahi.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Abhi mere side se kuch nahi ho sakta, aapko wait karna padega.
+Customer: Bilkul bekaar experience hai. Abhi tak kuch nahi hua.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",rental_agreement,negative,unresolved,high,1,0,1,0
+conv_0030,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Imran. Kaise madad karun?
+Customer: Owner mera security deposit wapas nahi de raha, flat bilkul theek condition mein chhoda tha.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 8854684750 hai, booking ID RE575786. Please check kar dijiye.
+Agent: Ok, dekhta hoon. Finance team ko refund bhej diya hai, 5-7 working days mein aa jayega.
+Customer: Theek hai, update ka wait karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",deposit_refund,neutral,partially_resolved,medium,1,1,0,1
+conv_0032,english,"Agent: Hello, thank you for calling RentEasy support, this is Vikram. How may I help you?
+Customer: I booked deep cleaning for today and the team never showed up.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 9179545125. The ID is RE705050. My email is user654@gmail.com. Can you please check this for me?
+Agent: Okay. I've raised a rework request; the team will call you by tomorrow to fix a slot.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",home_services,neutral,partially_resolved,medium,1,1,0,1
+conv_0033,english,"Agent: Hello, thank you for calling RentEasy support, this is Priya. How may I help you?
+Customer: I paid my rent of Rs 2500 by credit card yesterday but the owner says it's not credited.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 7384161612, booking ID RE792509. Can you please check this for me?
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I checked with the gateway; the amount was credited to the owner this morning and I've sent the UTR to your email.
+Customer: Alright, I'll check it on my side.
+Agent: Thank you for your patience. Have a good day.",payment_issue,neutral,resolved,low,1,1,1,1
+conv_0035,english,"Agent: Yes, tell me the issue.
+Customer: I've used 8 contacts from my plan and none of the owners are responding.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 8127772220, booking ID RE195763. This is the third time I am calling about this.
+Agent: I understand, and I apologise for the trouble this has caused. I've credited the contact back to your account and we will call the owner and update you within 24 hours.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",owner_unresponsive,negative,partially_resolved,high,0,1,1,1
+conv_0036,english,"Agent: Go ahead.
+Customer: Are your services available in Lucknow? I'm moving there next month.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 9844826434, booking ID RE619536. I just want to know the status and what happens next.
+Agent: I understand, and I apologise for the trouble this has caused. I've noted it and our team will email you the details within 24 hours.
+Customer: Okay, I'll wait for the update then.
+Agent: Thank you for your patience. Have a good day.",other,neutral,partially_resolved,medium,0,1,1,1
+conv_0037,hinglish,"Agent: Bataiye.
+Customer: Flat rent pe chala gaya hai, listing band kar do, calls aa rahi hain.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 8689720101 hai, booking ID RE237377. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Technical issue hai, ticket raise karunga par timeline nahi bata sakta.
+Customer: Bahut disappointed hoon, consumer forum mein complaint karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",property_listing,negative,unresolved,high,0,1,1,1
+conv_0039,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Vikram. Kaise madad karun?
+Customer: Owner mera security deposit wapas nahi de raha, flat bilkul theek condition mein chhoda tha. Aapki service bilkul bekaar hai, koi sunta hi nahi.
+Agent: Accha. Owner aur tenant ka deposit dispute hamare scope mein nahi hai.
+Customer: Bahut disappointed hoon, consumer forum mein complaint karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",deposit_refund,negative,unresolved,high,1,0,0,1
+conv_0040,english,"Agent: Good morning, welcome to RentEasy, Sneha here. What can I do for you today?
+Customer: I posted my property 2 days ago but the listing is still not live. Can you please check this for me?
+Agent: I understand, and I apologise for the trouble this has caused. Your listing is in the verification queue; our team will complete the photo check within 24 hours.
+Customer: Okay, I'll wait for the update then.
+Agent: Thank you for your patience. Have a good day.",property_listing,neutral,partially_resolved,medium,1,0,1,1
+conv_0041,english,"Agent: Good morning, welcome to RentEasy, Neha here. What can I do for you today?
+Customer: I paid my rent of Rs 25000 by credit card yesterday but the owner says it's not credited.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 6762992051. The ID is RE171744. My email is user250@gmail.com. Can you please check this for me?
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I checked with the gateway; the amount was credited to the owner this morning and I've sent the UTR to your email.
+Customer: Okay, noted.
+Agent: Thank you for your patience. Have a good day.",payment_issue,neutral,resolved,low,1,1,1,1
+conv_0042,english,"Agent: Good morning, welcome to RentEasy, Neha here. What can I do for you today?
+Customer: My flat is rented out, please deactivate the listing; I'm still getting calls.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 7287979290. The ID is RE182804. My email is user634@gmail.com. Can you please check this for me?
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've fixed the listing and it is updated with your details now.
+Customer: Perfect, I appreciate the quick help.
+Agent: Thank you for your patience. Have a good day.",property_listing,positive,resolved,low,1,1,1,1
+conv_0044,hinglish,"Agent: Haan, boliye.
+Customer: Aaj ke liye deep cleaning book kiya tha, koi aaya hi nahi. Bas status jaanna tha.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Is week aapke area mein koi technician available nahi hai.
+Customer: Accha theek hai, dekhte hain.
+Agent: Dhanyavaad, aapka din accha ho.",home_services,neutral,unresolved,medium,0,0,1,1
+conv_0045,english,"Agent: Good morning, welcome to RentEasy, Neha here. What can I do for you today?
+Customer: My UPI payment failed but the money was deducted from my account. I just want to know the status and what happens next.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I checked with the gateway; the amount was credited to the owner this morning and I've sent the UTR to your email.
+Customer: Thank you so much, that was really helpful!
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",payment_issue,positive,resolved,low,1,0,1,1
+conv_0048,english,"Agent: Yes, tell me the issue.
+Customer: My plan expired before I could use all the contacts; I want an extension.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 8684615760, booking ID RE776149. This is the third time I am calling about this.
+Agent: I understand, and I apologise for the trouble this has caused. As per policy plan amounts are non-refundable, so I can't do anything here.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",subscription_plan,negative,unresolved,high,0,1,1,1
+conv_0049,english,"Agent: Hello, thank you for calling RentEasy support, this is Arjun. How may I help you?
+Customer: There's a mistake in my rental agreement, the rent is written as Rs 40000, which is wrong.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 8931471931, booking ID RE254721. I just want to know the status and what happens next.
+Agent: Okay. I have corrected the agreement and sent the updated copy to your registered email just now.
+Customer: Okay, noted.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",rental_agreement,neutral,resolved,low,1,1,0,1
+conv_0050,hinglish,"Agent: Namaste, RentEasy support se Rahul baat kar raha hoon. Bataiye kya help karun?
+Customer: Agreement mein rent amount galat likha hai, correct karna hai.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 6585337126 hai, booking ID RE628313. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Abhi mere side se kuch nahi ho sakta, aapko wait karna padega.
+Customer: Bahut disappointed hoon, consumer forum mein complaint karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",rental_agreement,negative,unresolved,high,1,1,1,0
+conv_0051,hinglish,"Agent: Namaste, RentEasy support se Imran baat kar raha hoon. Bataiye kya help karun?
+Customer: Aaj ke liye deep cleaning book kiya tha, koi aaya hi nahi.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: 9642831335, aur ID RE734836 hai. Aapki service bilkul bekaar hai, koi sunta hi nahi.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Is week aapke area mein koi technician available nahi hai.
+Customer: Bahut disappointed hoon, consumer forum mein complaint karunga.
+Agent: Dhanyavaad, aapka din accha ho.",home_services,negative,unresolved,high,1,1,1,1
+conv_0052,english,"Agent: Good morning, welcome to RentEasy, Vikram here. What can I do for you today?
+Customer: My shifting was scheduled for today at 9 AM and the movers' truck still hasn't arrived.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 6563723880. The ID is RE201255. My email is user772@gmail.com. I am fed up with your service, this is unacceptable.
+Agent: Okay. I've raised a damage claim; our surveyor will visit within 48 hours to assess compensation.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",packers_movers,negative,partially_resolved,high,1,1,0,1
+conv_0053,english,"Agent: Good morning, welcome to RentEasy, Arjun here. What can I do for you today?
+Customer: I posted my property 12 days ago but the listing is still not live.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 6475932035, booking ID RE986438. Honestly this is ridiculous, I am really frustrated.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. Your listing is in the verification queue; our team will complete the photo check within 24 hours.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",property_listing,negative,partially_resolved,high,1,1,1,1
+conv_0054,english,"Agent: Good morning, welcome to RentEasy, Rahul here. What can I do for you today?
+Customer: The owner is refusing to return my security deposit of Rs 25000 even though I left the flat in good condition.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 6901131404. The ID is RE656251. My email is user230@gmail.com. This is the third time I am calling about this.
+Agent: I understand, and I apologise for the trouble this has caused. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",deposit_refund,negative,unresolved,high,1,1,1,0
+conv_0055,english,"Agent: Hello, thank you for calling RentEasy support, this is Neha. How may I help you?
+Customer: I want to update the photos and rent on my listing but the app shows an error.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 8331465414, booking ID RE891615. I just want to know the status and what happens next.
+Agent: I understand, and I apologise for the trouble this has caused. I've fixed the listing and it is updated with your details now.
+Customer: Thank you so much, that was really helpful!
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",property_listing,positive,resolved,low,1,1,1,1
+conv_0056,hinglish,"Agent: Namaste, RentEasy support se Kavya baat kar raha hoon. Bataiye kya help karun?
+Customer: Shifting mein mera fridge damage ho gaya aur do boxes missing hain.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: 9902100304, aur ID RE551574 hai. Please check kar dijiye.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Damage claim raise ho gaya hai, surveyor 48 hours mein aayega.
+Customer: Theek hai, update ka wait karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",packers_movers,neutral,partially_resolved,medium,1,1,1,1
+conv_0059,hinglish,"Agent: Namaste, RentEasy support se Kavya baat kar raha hoon. Bataiye kya help karun?
+Customer: Flat rent pe chala gaya hai, listing band kar do, calls aa rahi hain.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 8595792218 hai, booking ID RE573866. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Listing verification mein hai, 24 hours mein complete ho jayegi.
+Customer: Theek hai, par time pe nahi hua toh complaint karunga.
+Agent: Dhanyavaad, aapka din accha ho.",property_listing,negative,partially_resolved,high,1,1,1,1
+conv_0062,english,"Agent: Yes, tell me the issue.
+Customer: The owner is refusing to return my security deposit of Rs 8000 even though I left the flat in good condition. I just want to know the status and what happens next.
+Agent: Okay. The refund of Rs 8000 has been processed and will reflect in your account today.
+Customer: Okay, noted.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",deposit_refund,neutral,resolved,low,0,0,0,1
+conv_0063,hinglish,"Agent: Namaste, RentEasy support se Imran baat kar raha hoon. Bataiye kya help karun?
+Customer: Agreement mein rent amount galat likha hai, correct karna hai. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Ok, dekhta hoon. Main isko documentation team ko escalate kar raha hoon, abhi timeline nahi bata sakta.
+Customer: Bilkul bekaar experience hai. Abhi tak kuch nahi hua.
+Agent: Dhanyavaad, aapka din accha ho.",rental_agreement,negative,unresolved,high,1,0,0,1
+conv_0065,hinglish,"Agent: Bataiye.
+Customer: Flat rent pe chala gaya hai, listing band kar do, calls aa rahi hain. Please check kar dijiye.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Listing verification mein hai, 24 hours mein complete ho jayegi.
+Customer: Theek hai, update ka wait karunga.
+Agent: Dhanyavaad, aapka din accha ho.",property_listing,neutral,partially_resolved,medium,0,0,1,1
+conv_0066,english,"Agent: Good morning, welcome to RentEasy, Sneha here. What can I do for you today?
+Customer: I've used 10 contacts from my plan and none of the owners are responding. Can you please check this for me?
+Agent: Okay. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: Okay. Please let me know if anything changes.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",owner_unresponsive,neutral,unresolved,medium,1,0,0,0
+conv_0070,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Rahul. Kaise madad karun?
+Customer: Owner mera security deposit wapas nahi de raha, flat bilkul theek condition mein chhoda tha. Aapki service bilkul bekaar hai, koi sunta hi nahi.
+Agent: Accha. Owner aur tenant ka deposit dispute hamare scope mein nahi hai.
+Customer: Bilkul bekaar experience hai. Abhi tak kuch nahi hua.
+Agent: Dhanyavaad, aapka din accha ho.",deposit_refund,negative,unresolved,high,1,0,0,1
+conv_0071,english,"Agent: Good morning, welcome to RentEasy, Neha here. What can I do for you today?
+Customer: I want a refund for my subscription, I found a house elsewhere.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 9145478504. The ID is RE862120. My email is user900@gmail.com. I am fed up with your service, this is unacceptable.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. As per policy plan amounts are non-refundable, so I can't do anything here.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Thank you for your patience. Have a good day.",subscription_plan,negative,unresolved,high,1,1,1,1
+conv_0072,hinglish,"Agent: Namaste, RentEasy support se Vikram baat kar raha hoon. Bataiye kya help karun?
+Customer: Aaj ke liye deep cleaning book kiya tha, koi aaya hi nahi. Aapki service bilkul bekaar hai, koi sunta hi nahi.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Rework request daal di hai, kal tak team call karke slot fix karegi.
+Customer: Theek hai, par time pe nahi hua toh complaint karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",home_services,negative,partially_resolved,high,1,0,1,1
+conv_0075,english,"Agent: Good morning, welcome to RentEasy, Sneha here. What can I do for you today?
+Customer: The owner I contacted through your app stopped replying after I said I would visit.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 9869801588, booking ID RE853789. I just want to know the status and what happens next.
+Agent: Okay. I've credited the contact back to your account and we will call the owner and update you within 24 hours.
+Customer: Okay, I'll wait for the update then.
+Agent: Thank you for your patience. Have a good day.",owner_unresponsive,neutral,partially_resolved,medium,1,1,0,1
+conv_0081,english,"Agent: Hello, thank you for calling RentEasy support, this is Rahul. How may I help you?
+Customer: I ordered a rental agreement 3 days ago and still haven't received the e-stamped copy. I just want to know the status and what happens next.
+Agent: Okay. I've raised a correction request; the revised agreement will be delivered within 48 hours.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",rental_agreement,neutral,partially_resolved,medium,1,0,0,1
+conv_0082,english,"Agent: Good morning, welcome to RentEasy, Imran here. What can I do for you today?
+Customer: I want a refund for my subscription, I found a house elsewhere. I am fed up with your service, this is unacceptable.
+Agent: I understand, and I apologise for the trouble this has caused. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Thank you for your patience. Have a good day.",subscription_plan,negative,unresolved,high,1,0,1,0
+conv_0084,english,"Agent: Good morning, welcome to RentEasy, Vikram here. What can I do for you today?
+Customer: Your packers damaged my TV and a glass table during the move.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 8811060614. The ID is RE601608. My email is user548@gmail.com. I just want to know the status and what happens next.
+Agent: Hmm, let me see. I've raised a damage claim; our surveyor will visit within 48 hours to assess compensation.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",packers_movers,neutral,partially_resolved,medium,1,1,0,1
+conv_0086,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: Are your services available in Lucknow? I'm moving there next month. Can you please check this for me?
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. Yes, we're live there, and please note we never ask for OTPs, so don't share it with anyone.
+Customer: Thank you so much, that was really helpful!
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",other,positive,resolved,low,1,0,1,1
+conv_0087,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Sneha. Kaise madad karun?
+Customer: Aaj 9 baje shifting thi, packers abhi tak nahi aaye.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 7911653317 hai, booking ID RE401198. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Damage claim raise ho gaya hai, surveyor 48 hours mein aayega.
+Customer: Theek hai, par time pe nahi hua toh complaint karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",packers_movers,negative,partially_resolved,high,1,1,1,1
+conv_0088,english,"Agent: Go ahead.
+Customer: Are your services available in Lucknow? I'm moving there next month. I just want to know the status and what happens next.
+Agent: Hmm, let me see. Yes, we're live there, and please note we never ask for OTPs, so don't share it with anyone.
+Customer: Okay, noted.
+Agent: Thank you for your patience. Have a good day.",other,neutral,resolved,low,0,0,0,1
+conv_0089,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Arjun. Kaise madad karun?
+Customer: Owner ka number liya tha Koramangala wale flat ke liye, woh call hi nahi utha raha. Please check kar dijiye.
+Agent: Accha. Contact aapke account mein wapas credit kar diya hai, owner se baat karke 24 hours mein update denge.
+Customer: Theek hai, update ka wait karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",owner_unresponsive,neutral,partially_resolved,medium,1,0,0,1
+conv_0090,english,"Agent: Good morning, welcome to RentEasy, Priya here. What can I do for you today?
+Customer: I ordered a rental agreement 12 days ago and still haven't received the e-stamped copy.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 6817029885. The ID is RE223967. My email is user486@gmail.com. Can you please check this for me?
+Agent: Hmm, let me see. I have corrected the agreement and sent the updated copy to your registered email just now.
+Customer: Okay, noted.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",rental_agreement,neutral,resolved,low,1,1,0,1
+conv_0092,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Vikram. Kaise madad karun?
+Customer: Owner mera security deposit wapas nahi de raha, flat bilkul theek condition mein chhoda tha.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: 9705495031, aur ID RE160541 hai. Bas status jaanna tha.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Finance team ko refund bhej diya hai, 5-7 working days mein aa jayega.
+Customer: Theek hai, update ka wait karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",deposit_refund,neutral,partially_resolved,medium,1,1,1,1
+conv_0095,english,"Agent: Hello, thank you for calling RentEasy support, this is Priya. How may I help you?
+Customer: I cancelled the booking and was promised a refund of my token amount of Rs 2500, but it's been 5 days. I am fed up with your service, this is unacceptable.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",deposit_refund,negative,unresolved,high,1,0,1,0
+conv_0096,english,"Agent: Hello, thank you for calling RentEasy support, this is Imran. How may I help you?
+Customer: The painter left the work half done and isn't answering calls. Honestly this is ridiculous, I am really frustrated.
+Agent: I understand, and I apologise for the trouble this has caused. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Thank you for your patience. Have a good day.",home_services,negative,unresolved,high,1,0,1,0
+conv_0097,english,"Agent: Hello, thank you for calling RentEasy support, this is Neha. How may I help you?
+Customer: I booked deep cleaning for today and the team never showed up.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 7910048118, booking ID RE664058. I just want to know the status and what happens next.
+Agent: Okay. I've rescheduled the service and a technician is assigned for 4 PM today.
+Customer: Perfect, I appreciate the quick help.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",home_services,positive,resolved,low,1,1,0,1
+conv_0099,english,"Agent: Good morning, welcome to RentEasy, Imran here. What can I do for you today?
+Customer: My UPI payment failed but the money was deducted from my account. This is the third time I am calling about this.
+Agent: I understand, and I apologise for the trouble this has caused. The transaction is pending with the bank; I cannot do anything until the bank updates it.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Thank you for your patience. Have a good day.",payment_issue,negative,unresolved,high,1,0,1,1
+conv_0100,english,"Agent: Hello, thank you for calling RentEasy support, this is Neha. How may I help you?
+Customer: The owner is refusing to return my security deposit of Rs 5000 even though I left the flat in good condition.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 7507849850. The ID is RE697467. My email is user863@gmail.com. I just want to know the status and what happens next.
+Agent: Hmm, let me see. The refund of Rs 5000 has been processed and will reflect in your account today.
+Customer: Thank you so much, that was really helpful!
+Agent: Thank you for your patience. Have a good day.",deposit_refund,positive,resolved,low,1,1,0,1
+conv_0101,english,"Agent: Yes, tell me the issue.
+Customer: I've used 4 contacts from my plan and none of the owners are responding.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 6920702588, booking ID RE106693. I am fed up with your service, this is unacceptable.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've credited the contact back to your account and we will call the owner and update you within 24 hours.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",owner_unresponsive,negative,partially_resolved,high,0,1,1,1
+conv_0103,english,"Agent: Hello, thank you for calling RentEasy support, this is Vikram. How may I help you?
+Customer: I want a refund for my subscription, I found a house elsewhere.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 8834484102, booking ID RE968286. I just want to know the status and what happens next.
+Agent: Hmm, let me see. I've extended your plan by 30 days and assigned a new relationship manager who will call you today.
+Customer: Alright, I'll check it on my side.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",subscription_plan,neutral,resolved,low,1,1,0,1
+conv_0104,hinglish,"Agent: Haan, boliye.
+Customer: Mera plan khatam ho gaya par contacts bache hue the, extension chahiye.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 9391086098 hai, booking ID RE148823. Aapki service bilkul bekaar hai, koi sunta hi nahi.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Request plans team ko bhej di hai, 48 hours mein update milega.
+Customer: Theek hai, par time pe nahi hua toh complaint karunga.
+Agent: Dhanyavaad, aapka din accha ho.",subscription_plan,negative,partially_resolved,high,0,1,1,1
+conv_0106,english,"Agent: Hello, thank you for calling RentEasy support, this is Neha. How may I help you?
+Customer: Are your services available in Lucknow? I'm moving there next month.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 6929108437. The ID is RE748665. My email is user312@gmail.com. Can you please check this for me?
+Agent: I understand, and I apologise for the trouble this has caused. Yes, we're live there, and please note we never ask for OTPs, so don't share it with anyone.
+Customer: Alright, I'll check it on my side.
+Agent: Thank you for your patience. Have a good day.",other,neutral,resolved,low,1,1,1,1
+conv_0107,english,"Agent: Hello, thank you for calling RentEasy support, this is Rahul. How may I help you?
+Customer: Two boxes are missing after my relocation from Koramangala last week. I just want to know the status and what happens next.
+Agent: I understand, and I apologise for the trouble this has caused. The truck has been reassigned and the team will reach you in 30 minutes; I have confirmed it with the driver.
+Customer: Perfect, I appreciate the quick help.
+Agent: Thank you for your patience. Have a good day.",packers_movers,positive,resolved,low,1,0,1,1
+conv_0108,english,"Agent: Yes, tell me the issue.
+Customer: My shifting was scheduled for today at 9 AM and the movers' truck still hasn't arrived. I just want to know the status and what happens next.
+Agent: Hmm, let me see. The truck has been reassigned and the team will reach you in 30 minutes; I have confirmed it with the driver.
+Customer: Perfect, I appreciate the quick help.
+Agent: Thank you for your patience. Have a good day.",packers_movers,positive,resolved,low,0,0,0,1
+conv_0111,english,"Agent: Good morning, welcome to RentEasy, Kavya here. What can I do for you today?
+Customer: I was charged twice for the same rent payment transaction. I just want to know the status and what happens next.
+Agent: I understand, and I apologise for the trouble this has caused. I checked with the gateway; the amount was credited to the owner this morning and I've sent the UTR to your email.
+Customer: Thank you so much, that was really helpful!
+Agent: Thank you for your patience. Have a good day.",payment_issue,positive,resolved,low,1,0,1,1
+conv_0113,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: Two boxes are missing after my relocation from Gachibowli last week. Honestly this is ridiculous, I am really frustrated.
+Agent: I understand, and I apologise for the trouble this has caused. I've raised a damage claim; our surveyor will visit within 48 hours to assess compensation.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",packers_movers,negative,partially_resolved,high,1,0,1,1
+conv_0116,english,"Agent: Good morning, welcome to RentEasy, Neha here. What can I do for you today?
+Customer: Two boxes are missing after my relocation from Sector 62 Noida last week.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 9762888128, booking ID RE280908. I just want to know the status and what happens next.
+Agent: Okay. The truck has been reassigned and the team will reach you in 30 minutes; I have confirmed it with the driver.
+Customer: Alright, I'll check it on my side.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",packers_movers,neutral,resolved,low,1,1,0,1
+conv_0117,english,"Agent: Hello, thank you for calling RentEasy support, this is Sneha. How may I help you?
+Customer: The owner I contacted through your app stopped replying after I said I would visit.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 7625749126, booking ID RE402865. Honestly this is ridiculous, I am really frustrated.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've credited the contact back to your account and we will call the owner and update you within 24 hours.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",owner_unresponsive,negative,partially_resolved,high,1,1,1,1
+conv_0118,english,"Agent: Hello, thank you for calling RentEasy support, this is Vikram. How may I help you?
+Customer: I was charged twice for the same rent payment transaction. I just want to know the status and what happens next.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: Okay. Please let me know if anything changes.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",payment_issue,neutral,unresolved,medium,1,0,1,0
+conv_0121,english,"Agent: Good morning, welcome to RentEasy, Neha here. What can I do for you today?
+Customer: My plan expired before I could use all the contacts; I want an extension.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 9653635749. The ID is RE886224. My email is user294@gmail.com. I am fed up with your service, this is unacceptable.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. As per policy plan amounts are non-refundable, so I can't do anything here.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Thank you for your patience. Have a good day.",subscription_plan,negative,unresolved,high,1,1,1,1
+conv_0122,english,"Agent: Yes, tell me the issue.
+Customer: I posted my property 10 days ago but the listing is still not live. This is the third time I am calling about this.
+Agent: I understand, and I apologise for the trouble this has caused. There's a technical issue on our side; I will raise a ticket but I don't have a timeline.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",property_listing,negative,unresolved,high,0,0,1,1
+conv_0123,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: My shifting was scheduled for today at 9 AM and the movers' truck still hasn't arrived. I just want to know the status and what happens next.
+Agent: I understand, and I apologise for the trouble this has caused. The truck has been reassigned and the team will reach you in 30 minutes; I have confirmed it with the driver.
+Customer: Perfect, I appreciate the quick help.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",packers_movers,positive,resolved,low,1,0,1,1
+conv_0124,english,"Agent: Hello, thank you for calling RentEasy support, this is Priya. How may I help you?
+Customer: I bought the Freedom plan for Rs 8000 but the relationship manager never called me.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 9845210115, booking ID RE238595. Can you please check this for me?
+Agent: Okay. I've extended your plan by 30 days and assigned a new relationship manager who will call you today.
+Customer: Perfect, I appreciate the quick help.
+Agent: Thank you for your patience. Have a good day.",subscription_plan,positive,resolved,low,1,1,0,1
+conv_0126,english,"Agent: Good morning, welcome to RentEasy, Arjun here. What can I do for you today?
+Customer: I unlocked the owner's contact for a 2BHK in Powai but the owner has not picked up my calls for 12 days.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 8936412291. The ID is RE824016. My email is user37@gmail.com. I just want to know the status and what happens next.
+Agent: Okay. I've spoken to the owner and scheduled your visit for tomorrow at 11 AM; you'll get an SMS confirmation.
+Customer: Perfect, I appreciate the quick help.
+Agent: Thank you for your patience. Have a good day.",owner_unresponsive,positive,resolved,low,1,1,0,1
+conv_0128,english,"Agent: Hello, thank you for calling RentEasy support, this is Neha. How may I help you?
+Customer: The landlord's name is spelled wrong in the agreement you sent, I need it corrected before signing.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 7397928718, booking ID RE187657. I just want to know the status and what happens next.
+Agent: Hmm, let me see. I have corrected the agreement and sent the updated copy to your registered email just now.
+Customer: Perfect, I appreciate the quick help.
+Agent: Thank you for your patience. Have a good day.",rental_agreement,positive,resolved,low,1,1,0,1
+conv_0129,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Kavya. Kaise madad karun?
+Customer: UPI payment fail ho gaya par paisa kat gaya.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: 6275913951, aur ID RE620526 hai. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Abhi mere side se kuch nahi ho sakta, aapko wait karna padega.
+Customer: Bilkul bekaar experience hai. Abhi tak kuch nahi hua.
+Agent: Dhanyavaad, aapka din accha ho.",payment_issue,negative,unresolved,high,1,1,1,0
+conv_0131,hinglish,"Agent: Bataiye.
+Customer: Aaj 9 baje shifting thi, packers abhi tak nahi aaye.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 8391261014 hai, booking ID RE966120. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Accha. Abhi mere side se kuch nahi ho sakta, aapko wait karna padega.
+Customer: Bilkul bekaar experience hai. Abhi tak kuch nahi hua.
+Agent: Dhanyavaad, aapka din accha ho.",packers_movers,negative,unresolved,high,0,1,0,0
+conv_0132,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: I posted my property 5 days ago but the listing is still not live.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 9929587172. The ID is RE913575. My email is user210@gmail.com. This is the third time I am calling about this.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. There's a technical issue on our side; I will raise a ticket but I don't have a timeline.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Thank you for your patience. Have a good day.",property_listing,negative,unresolved,high,1,1,1,1
+conv_0133,english,"Agent: Hello, thank you for calling RentEasy support, this is Arjun. How may I help you?
+Customer: The landlord's name is spelled wrong in the agreement you sent, I need it corrected before signing.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 8199886596. The ID is RE146032. My email is user953@gmail.com. Honestly this is ridiculous, I am really frustrated.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've raised a correction request; the revised agreement will be delivered within 48 hours.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",rental_agreement,negative,partially_resolved,high,1,1,1,1
+conv_0134,english,"Agent: Yes, tell me the issue.
+Customer: I ordered a rental agreement 13 days ago and still haven't received the e-stamped copy.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 8586145040, booking ID RE385166. Can you please check this for me?
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've raised a correction request; the revised agreement will be delivered within 48 hours.
+Customer: Okay, I'll wait for the update then.
+Agent: Thank you for your patience. Have a good day.",rental_agreement,neutral,partially_resolved,medium,0,1,1,1
+conv_0135,english,"Agent: Good morning, welcome to RentEasy, Rahul here. What can I do for you today?
+Customer: I cancelled the booking and was promised a refund of my token amount of Rs 40000, but it's been 4 days.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 6330876810, booking ID RE976530. I just want to know the status and what happens next.
+Agent: Hmm, let me see. The refund of Rs 40000 has been processed and will reflect in your account today.
+Customer: Perfect, I appreciate the quick help.
+Agent: Thank you for your patience. Have a good day.",deposit_refund,positive,resolved,low,1,1,0,1
+conv_0136,english,"Agent: Yes, tell me the issue.
+Customer: I paid my rent of Rs 40000 by credit card yesterday but the owner says it's not credited.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 6112838650. The ID is RE164664. My email is user860@gmail.com. I just want to know the status and what happens next.
+Agent: Okay. I checked with the gateway; the amount was credited to the owner this morning and I've sent the UTR to your email.
+Customer: Thank you so much, that was really helpful!
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",payment_issue,positive,resolved,low,0,1,0,1
+conv_0137,english,"Agent: Go ahead.
+Customer: Someone called me claiming to be from your company and asked for my OTP. Is that genuine?
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 7716203465. The ID is RE554197. My email is user851@gmail.com. I just want to know the status and what happens next.
+Agent: Okay. Yes, we're live there, and please note we never ask for OTPs, so don't share it with anyone.
+Customer: Thank you so much, that was really helpful!
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",other,positive,resolved,low,0,1,0,1
+conv_0138,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Vikram. Kaise madad karun?
+Customer: Token amount Rs 12000 ka refund 10 din se pending hai.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 6400407178 hai, booking ID RE501620. Bas status jaanna tha.
+Agent: Ok, dekhta hoon. Finance team ko refund bhej diya hai, 5-7 working days mein aa jayega.
+Customer: Theek hai, update ka wait karunga.
+Agent: Dhanyavaad, aapka din accha ho.",deposit_refund,neutral,partially_resolved,medium,1,1,0,1
+conv_0139,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: I want to update the photos and rent on my listing but the app shows an error.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 7271395839, booking ID RE204998. I just want to know the status and what happens next.
+Agent: I understand, and I apologise for the trouble this has caused. Your listing is in the verification queue; our team will complete the photo check within 24 hours.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",property_listing,neutral,partially_resolved,medium,1,1,1,1
+conv_0140,english,"Agent: Yes, tell me the issue.
+Customer: I booked deep cleaning for today and the team never showed up.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 8288502642, booking ID RE614259. This is the third time I am calling about this.
+Agent: I understand, and I apologise for the trouble this has caused. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",home_services,negative,unresolved,high,0,1,1,0
+conv_0141,hinglish,"Agent: Bataiye.
+Customer: Kal credit card se Rs 5000 rent pay kiya, owner bol raha hai paisa nahi aaya. Bas status jaanna tha.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Gateway se check kiya, amount owner ko credit ho gaya hai, UTR email pe bhej diya.
+Customer: Theek hai, ok.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",payment_issue,neutral,resolved,low,0,0,1,1
+conv_0142,english,"Agent: Good morning, welcome to RentEasy, Imran here. What can I do for you today?
+Customer: I paid my rent of Rs 18500 by credit card yesterday but the owner says it's not credited.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 9429448930, booking ID RE869649. I just want to know the status and what happens next.
+Agent: Okay. The duplicate charge is confirmed; the reversal will reach your account within 5 to 7 working days.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",payment_issue,neutral,partially_resolved,medium,1,1,0,1
+conv_0143,english,"Agent: Hello, thank you for calling RentEasy support, this is Imran. How may I help you?
+Customer: I want a refund for my subscription, I found a house elsewhere.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 9112235959. The ID is RE378095. My email is user224@gmail.com. I just want to know the status and what happens next.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've extended your plan by 30 days and assigned a new relationship manager who will call you today.
+Customer: Thank you so much, that was really helpful!
+Agent: Thank you for your patience. Have a good day.",subscription_plan,positive,resolved,low,1,1,1,1
+conv_0144,hinglish,"Agent: Namaste, RentEasy support se Neha baat kar raha hoon. Bataiye kya help karun?
+Customer: Shifting mein mera fridge damage ho gaya aur do boxes missing hain. Please check kar dijiye.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Damage claim raise ho gaya hai, surveyor 48 hours mein aayega.
+Customer: Theek hai, update ka wait karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",packers_movers,neutral,partially_resolved,medium,1,0,1,1
+conv_0146,english,"Agent: Yes, tell me the issue.
+Customer: I've used 10 contacts from my plan and none of the owners are responding.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 7204138894, booking ID RE126985. I just want to know the status and what happens next.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've spoken to the owner and scheduled your visit for tomorrow at 11 AM; you'll get an SMS confirmation.
+Customer: Perfect, I appreciate the quick help.
+Agent: Thank you for your patience. Have a good day.",owner_unresponsive,positive,resolved,low,0,1,1,1
+conv_0147,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Imran. Kaise madad karun?
+Customer: Aaj ke liye deep cleaning book kiya tha, koi aaya hi nahi.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 9599352182 hai, booking ID RE376195. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Ok, dekhta hoon. Rework request daal di hai, kal tak team call karke slot fix karegi.
+Customer: Theek hai, par time pe nahi hua toh complaint karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",home_services,negative,partially_resolved,high,1,1,0,1
+conv_0150,english,"Agent: Go ahead.
+Customer: I paid my rent of Rs 8000 by credit card yesterday but the owner says it's not credited.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 7763834967. The ID is RE738221. My email is user707@gmail.com. I am fed up with your service, this is unacceptable.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. The transaction is pending with the bank; I cannot do anything until the bank updates it.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Thank you for your patience. Have a good day.",payment_issue,negative,unresolved,high,0,1,1,1
+conv_0151,english,"Agent: Hello, thank you for calling RentEasy support, this is Rahul. How may I help you?
+Customer: I posted my property 4 days ago but the listing is still not live.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 8389287503, booking ID RE864201. I just want to know the status and what happens next.
+Agent: Hmm, let me see. I've fixed the listing and it is updated with your details now.
+Customer: Thank you so much, that was really helpful!
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",property_listing,positive,resolved,low,1,1,0,1
+conv_0152,english,"Agent: Good morning, welcome to RentEasy, Sneha here. What can I do for you today?
+Customer: The landlord's name is spelled wrong in the agreement you sent, I need it corrected before signing.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 7135509761. The ID is RE578621. My email is user61@gmail.com. Honestly this is ridiculous, I am really frustrated.
+Agent: I understand, and I apologise for the trouble this has caused. I've raised a correction request; the revised agreement will be delivered within 48 hours.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",rental_agreement,negative,partially_resolved,high,1,1,1,1
+conv_0154,english,"Agent: Good morning, welcome to RentEasy, Arjun here. What can I do for you today?
+Customer: I want to update the photos and rent on my listing but the app shows an error.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 8555059083, booking ID RE494763. I just want to know the status and what happens next.
+Agent: I understand, and I apologise for the trouble this has caused. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: Okay. Please let me know if anything changes.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",property_listing,neutral,unresolved,medium,1,1,1,0
+conv_0156,english,"Agent: Go ahead.
+Customer: I want a refund for my subscription, I found a house elsewhere.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 8880126986. The ID is RE848021. My email is user237@gmail.com. This is the third time I am calling about this.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've forwarded your request; the plans team will review it and update you within 48 hours.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",subscription_plan,negative,partially_resolved,high,0,1,1,1
+conv_0157,english,"Agent: Good morning, welcome to RentEasy, Imran here. What can I do for you today?
+Customer: The owner I contacted through your app stopped replying after I said I would visit.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 8551478978. The ID is RE926372. My email is user918@gmail.com. I just want to know the status and what happens next.
+Agent: Okay. I've spoken to the owner and scheduled your visit for tomorrow at 11 AM; you'll get an SMS confirmation.
+Customer: Okay, noted.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",owner_unresponsive,neutral,resolved,low,1,1,0,1
+conv_0159,hinglish,"Agent: Namaste, RentEasy support se Neha baat kar raha hoon. Bataiye kya help karun?
+Customer: Owner mera security deposit wapas nahi de raha, flat bilkul theek condition mein chhoda tha.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: 9105013454, aur ID RE139557 hai. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Accha. Owner aur tenant ka deposit dispute hamare scope mein nahi hai.
+Customer: Bilkul bekaar experience hai. Abhi tak kuch nahi hua.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",deposit_refund,negative,unresolved,high,1,1,0,1
+conv_0160,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Priya. Kaise madad karun?
+Customer: Mera plan khatam ho gaya par contacts bache hue the, extension chahiye.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 9837424573 hai, booking ID RE240288. Bas status jaanna tha.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Plan 30 din extend kar diya hai aur naya relationship manager assign kar diya hai.
+Customer: Theek hai, ok.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",subscription_plan,neutral,resolved,low,1,1,1,1
+conv_0161,english,"Agent: Hello, thank you for calling RentEasy support, this is Neha. How may I help you?
+Customer: I unlocked the owner's contact for a 2BHK in Powai but the owner has not picked up my calls for 14 days. Can you please check this for me?
+Agent: Hmm, let me see. I've spoken to the owner and scheduled your visit for tomorrow at 11 AM; you'll get an SMS confirmation.
+Customer: Perfect, I appreciate the quick help.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",owner_unresponsive,positive,resolved,low,1,0,0,1
+conv_0162,hinglish,"Agent: Namaste, RentEasy support se Rahul baat kar raha hoon. Bataiye kya help karun?
+Customer: Plumber ne leak theek kiya tha par phir se leak ho raha hai.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 9991906567 hai, booking ID RE210010. Bas status jaanna tha.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Rework request daal di hai, kal tak team call karke slot fix karegi.
+Customer: Theek hai, update ka wait karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",home_services,neutral,partially_resolved,medium,1,1,1,1
+conv_0163,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Vikram. Kaise madad karun?
+Customer: Aaj 9 baje shifting thi, packers abhi tak nahi aaye. Please check kar dijiye.
+Agent: Accha. Damage claim raise ho gaya hai, surveyor 48 hours mein aayega.
+Customer: Theek hai, update ka wait karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",packers_movers,neutral,partially_resolved,medium,1,0,0,1
+conv_0167,english,"Agent: Go ahead.
+Customer: The owner is refusing to return my security deposit of Rs 5000 even though I left the flat in good condition.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 9277601056. The ID is RE178501. My email is user779@gmail.com. Honestly this is ridiculous, I am really frustrated.
+Agent: Okay. I've sent the refund to our finance team; it will be credited within 5 to 7 working days.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",deposit_refund,negative,partially_resolved,high,0,1,0,1
+conv_0168,english,"Agent: Hello, thank you for calling RentEasy support, this is Imran. How may I help you?
+Customer: I paid my rent of Rs 25000 by credit card yesterday but the owner says it's not credited.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 6533190034, booking ID RE532368. I just want to know the status and what happens next.
+Agent: Hmm, let me see. I checked with the gateway; the amount was credited to the owner this morning and I've sent the UTR to your email.
+Customer: Thank you so much, that was really helpful!
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",payment_issue,positive,resolved,low,1,1,0,1
+conv_0169,english,"Agent: Good morning, welcome to RentEasy, Vikram here. What can I do for you today?
+Customer: My flat is rented out, please deactivate the listing; I'm still getting calls. I just want to know the status and what happens next.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've fixed the listing and it is updated with your details now.
+Customer: Okay, noted.
+Agent: Thank you for your patience. Have a good day.",property_listing,neutral,resolved,low,1,0,1,1
+conv_0170,english,"Agent: Hello, thank you for calling RentEasy support, this is Neha. How may I help you?
+Customer: I've used 6 contacts from my plan and none of the owners are responding.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 8215712585. The ID is RE893928. My email is user434@gmail.com. Honestly this is ridiculous, I am really frustrated.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've credited the contact back to your account and we will call the owner and update you within 24 hours.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",owner_unresponsive,negative,partially_resolved,high,1,1,1,1
+conv_0171,english,"Agent: Yes, tell me the issue.
+Customer: The painter left the work half done and isn't answering calls. I just want to know the status and what happens next.
+Agent: Hmm, let me see. I've raised a rework request; the team will call you by tomorrow to fix a slot.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",home_services,neutral,partially_resolved,medium,0,0,0,1
+conv_0172,english,"Agent: Good morning, welcome to RentEasy, Imran here. What can I do for you today?
+Customer: I've used 6 contacts from my plan and none of the owners are responding. This is the third time I am calling about this.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've credited the contact back to your account and we will call the owner and update you within 24 hours.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",owner_unresponsive,negative,partially_resolved,high,1,0,1,1
+conv_0173,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: I booked deep cleaning for today and the team never showed up. I just want to know the status and what happens next.
+Agent: Okay. I've raised a rework request; the team will call you by tomorrow to fix a slot.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",home_services,neutral,partially_resolved,medium,1,0,0,1
+conv_0175,english,"Agent: Hello, thank you for calling RentEasy support, this is Imran. How may I help you?
+Customer: I unlocked the owner's contact for a 2BHK in Sector 62 Noida but the owner has not picked up my calls for 10 days.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 7415870923, booking ID RE570616. Honestly this is ridiculous, I am really frustrated.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Thank you for your patience. Have a good day.",owner_unresponsive,negative,unresolved,high,1,1,1,0
+conv_0177,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Imran. Kaise madad karun?
+Customer: Aaj 9 baje shifting thi, packers abhi tak nahi aaye.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 6223181755 hai, booking ID RE801432. Bas status jaanna tha.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Damage claim raise ho gaya hai, surveyor 48 hours mein aayega.
+Customer: Theek hai, update ka wait karunga.
+Agent: Dhanyavaad, aapka din accha ho.",packers_movers,neutral,partially_resolved,medium,1,1,1,1
+conv_0178,english,"Agent: Yes, tell me the issue.
+Customer: I booked deep cleaning for today and the team never showed up.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 8651790232, booking ID RE186345. Can you please check this for me?
+Agent: Okay. I've rescheduled the service and a technician is assigned for 4 PM today.
+Customer: Okay, noted.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",home_services,neutral,resolved,low,0,1,0,1
+conv_0179,english,"Agent: Hello, thank you for calling RentEasy support, this is Sneha. How may I help you?
+Customer: The painter left the work half done and isn't answering calls.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 6193974854, booking ID RE176806. Honestly this is ridiculous, I am really frustrated.
+Agent: Hmm, let me see. I've raised a rework request; the team will call you by tomorrow to fix a slot.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",home_services,negative,partially_resolved,high,1,1,0,1
+conv_0182,english,"Agent: Good morning, welcome to RentEasy, Arjun here. What can I do for you today?
+Customer: Two boxes are missing after my relocation from Whitefield last week.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 9792213989. The ID is RE676365. My email is user84@gmail.com. This is the third time I am calling about this.
+Agent: Okay. I've raised a damage claim; our surveyor will visit within 48 hours to assess compensation.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",packers_movers,negative,partially_resolved,high,1,1,0,1
+conv_0184,hinglish,"Agent: Namaste, RentEasy support se Vikram baat kar raha hoon. Bataiye kya help karun?
+Customer: Mera plan khatam ho gaya par contacts bache hue the, extension chahiye. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Request plans team ko bhej di hai, 48 hours mein update milega.
+Customer: Theek hai, par time pe nahi hua toh complaint karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",subscription_plan,negative,partially_resolved,high,1,0,1,1
+conv_0185,english,"Agent: Go ahead.
+Customer: I posted my property 6 days ago but the listing is still not live.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 7492794766, booking ID RE511564. Honestly this is ridiculous, I am really frustrated.
+Agent: Hmm, let me see. There's a technical issue on our side; I will raise a ticket but I don't have a timeline.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",property_listing,negative,unresolved,high,0,1,0,1
+conv_0188,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: My flat is rented out, please deactivate the listing; I'm still getting calls.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 8746414349. The ID is RE852146. My email is user846@gmail.com. I just want to know the status and what happens next.
+Agent: Okay. I've fixed the listing and it is updated with your details now.
+Customer: Perfect, I appreciate the quick help.
+Agent: Thank you for your patience. Have a good day.",property_listing,positive,resolved,low,1,1,0,1
+conv_0189,english,"Agent: Hello, thank you for calling RentEasy support, this is Sneha. How may I help you?
+Customer: I've used 3 contacts from my plan and none of the owners are responding.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 7160035062, booking ID RE274421. I just want to know the status and what happens next.
+Agent: Okay. I've spoken to the owner and scheduled your visit for tomorrow at 11 AM; you'll get an SMS confirmation.
+Customer: Perfect, I appreciate the quick help.
+Agent: Thank you for your patience. Have a good day.",owner_unresponsive,positive,resolved,low,1,1,0,1
+conv_0190,english,"Agent: Good morning, welcome to RentEasy, Sneha here. What can I do for you today?
+Customer: My flat is rented out, please deactivate the listing; I'm still getting calls. Can you please check this for me?
+Agent: Okay. I've fixed the listing and it is updated with your details now.
+Customer: Perfect, I appreciate the quick help.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",property_listing,positive,resolved,low,1,0,0,1
+conv_0191,english,"Agent: Hello, thank you for calling RentEasy support, this is Rahul. How may I help you?
+Customer: The landlord's name is spelled wrong in the agreement you sent, I need it corrected before signing.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 6200061963. The ID is RE605666. My email is user685@gmail.com. I just want to know the status and what happens next.
+Agent: I understand, and I apologise for the trouble this has caused. I have corrected the agreement and sent the updated copy to your registered email just now.
+Customer: Perfect, I appreciate the quick help.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",rental_agreement,positive,resolved,low,1,1,1,1
+conv_0192,english,"Agent: Good morning, welcome to RentEasy, Rahul here. What can I do for you today?
+Customer: I want to update the photos and rent on my listing but the app shows an error. Can you please check this for me?
+Agent: Okay. Your listing is in the verification queue; our team will complete the photo check within 24 hours.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",property_listing,neutral,partially_resolved,medium,1,0,0,1
+conv_0196,english,"Agent: Yes, tell me the issue.
+Customer: I bought the Freedom plan for Rs 12000 but the relationship manager never called me.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 7655921993. The ID is RE116112. My email is user764@gmail.com. I just want to know the status and what happens next.
+Agent: I understand, and I apologise for the trouble this has caused. I've extended your plan by 30 days and assigned a new relationship manager who will call you today.
+Customer: Okay, noted.
+Agent: Thank you for your patience. Have a good day.",subscription_plan,neutral,resolved,low,0,1,1,1
+conv_0198,english,"Agent: Good morning, welcome to RentEasy, Neha here. What can I do for you today?
+Customer: The refund of the advance I paid through your platform hasn't come yet. I just want to know the status and what happens next.
+Agent: Okay. The refund of Rs 18500 has been processed and will reflect in your account today.
+Customer: Alright, I'll check it on my side.
+Agent: Thank you for your patience. Have a good day.",deposit_refund,neutral,resolved,low,1,0,0,1
+conv_0199,hinglish,"Agent: Haan, boliye.
+Customer: Owner mera security deposit wapas nahi de raha, flat bilkul theek condition mein chhoda tha. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Accha. Owner aur tenant ka deposit dispute hamare scope mein nahi hai.
+Customer: Bilkul bekaar experience hai. Abhi tak kuch nahi hua.
+Agent: Dhanyavaad, aapka din accha ho.",deposit_refund,negative,unresolved,high,0,0,0,1
+conv_0200,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: I bought the Freedom plan for Rs 40000 but the relationship manager never called me.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 9338470307. The ID is RE886609. My email is user600@gmail.com. I am fed up with your service, this is unacceptable.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. As per policy plan amounts are non-refundable, so I can't do anything here.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",subscription_plan,negative,unresolved,high,1,1,1,1
+conv_0201,english,"Agent: Hello, thank you for calling RentEasy support, this is Neha. How may I help you?
+Customer: Your packers damaged my TV and a glass table during the move.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 8300953401. The ID is RE675210. My email is user279@gmail.com. I just want to know the status and what happens next.
+Agent: Okay. The truck has been reassigned and the team will reach you in 30 minutes; I have confirmed it with the driver.
+Customer: Perfect, I appreciate the quick help.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",packers_movers,positive,resolved,low,1,1,0,1
+conv_0202,english,"Agent: Hello, thank you for calling RentEasy support, this is Arjun. How may I help you?
+Customer: Your packers damaged my TV and a glass table during the move.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 9508970423, booking ID RE305587. Honestly this is ridiculous, I am really frustrated.
+Agent: I understand, and I apologise for the trouble this has caused. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Thank you for your patience. Have a good day.",packers_movers,negative,unresolved,high,1,1,1,0
+conv_0203,english,"Agent: Good morning, welcome to RentEasy, Kavya here. What can I do for you today?
+Customer: The owner is refusing to return my security deposit of Rs 25000 even though I left the flat in good condition. I just want to know the status and what happens next.
+Agent: I understand, and I apologise for the trouble this has caused. I've sent the refund to our finance team; it will be credited within 5 to 7 working days.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",deposit_refund,neutral,partially_resolved,medium,1,0,1,1
+conv_0205,english,"Agent: Hello, thank you for calling RentEasy support, this is Neha. How may I help you?
+Customer: I ordered a rental agreement 9 days ago and still haven't received the e-stamped copy. Can you please check this for me?
+Agent: Hmm, let me see. I have corrected the agreement and sent the updated copy to your registered email just now.
+Customer: Okay, noted.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",rental_agreement,neutral,resolved,low,1,0,0,1
+conv_0206,english,"Agent: Hello, thank you for calling RentEasy support, this is Rahul. How may I help you?
+Customer: My shifting was scheduled for today at 9 AM and the movers' truck still hasn't arrived.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 6803121225. The ID is RE508783. My email is user326@gmail.com. Can you please check this for me?
+Agent: Okay. The truck has been reassigned and the team will reach you in 30 minutes; I have confirmed it with the driver.
+Customer: Thank you so much, that was really helpful!
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",packers_movers,positive,resolved,low,1,1,0,1
+conv_0207,english,"Agent: Good morning, welcome to RentEasy, Vikram here. What can I do for you today?
+Customer: I want a refund for my subscription, I found a house elsewhere. I am fed up with your service, this is unacceptable.
+Agent: I understand, and I apologise for the trouble this has caused. As per policy plan amounts are non-refundable, so I can't do anything here.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",subscription_plan,negative,unresolved,high,1,0,1,1
+conv_0208,english,"Agent: Hello, thank you for calling RentEasy support, this is Sneha. How may I help you?
+Customer: My UPI payment failed but the money was deducted from my account.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 9911182636, booking ID RE600241. Can you please check this for me?
+Agent: I understand, and I apologise for the trouble this has caused. The duplicate charge is confirmed; the reversal will reach your account within 5 to 7 working days.
+Customer: Okay, I'll wait for the update then.
+Agent: Thank you for your patience. Have a good day.",payment_issue,neutral,partially_resolved,medium,1,1,1,1
+conv_0209,english,"Agent: Good morning, welcome to RentEasy, Neha here. What can I do for you today?
+Customer: Your packers damaged my TV and a glass table during the move.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 8796275440, booking ID RE879015. Can you please check this for me?
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. The truck has been reassigned and the team will reach you in 30 minutes; I have confirmed it with the driver.
+Customer: Thank you so much, that was really helpful!
+Agent: Thank you for your patience. Have a good day.",packers_movers,positive,resolved,low,1,1,1,1
+conv_0210,english,"Agent: Hello, thank you for calling RentEasy support, this is Priya. How may I help you?
+Customer: I bought the Freedom plan for Rs 8000 but the relationship manager never called me.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 7867935795, booking ID RE559713. Can you please check this for me?
+Agent: I understand, and I apologise for the trouble this has caused. I've extended your plan by 30 days and assigned a new relationship manager who will call you today.
+Customer: Alright, I'll check it on my side.
+Agent: Thank you for your patience. Have a good day.",subscription_plan,neutral,resolved,low,1,1,1,1
+conv_0211,english,"Agent: Hello, thank you for calling RentEasy support, this is Sneha. How may I help you?
+Customer: The owner is refusing to return my security deposit of Rs 40000 even though I left the flat in good condition. Honestly this is ridiculous, I am really frustrated.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Thank you for your patience. Have a good day.",deposit_refund,negative,unresolved,high,1,0,1,0
+conv_0213,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Kavya. Kaise madad karun?
+Customer: Maine 3 din pehle property post ki thi, listing abhi tak live nahi hui.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 6145090037 hai, booking ID RE709303. Please check kar dijiye.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Listing update kar di hai, ab sab theek hai.
+Customer: Bahut accha, shukriya!
+Agent: Dhanyavaad, aapka din accha ho.",property_listing,positive,resolved,low,1,1,1,1
+conv_0214,english,"Agent: Good morning, welcome to RentEasy, Sneha here. What can I do for you today?
+Customer: I want to update the photos and rent on my listing but the app shows an error.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 9887255513. The ID is RE302338. My email is user31@gmail.com. Can you please check this for me?
+Agent: Hmm, let me see. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: Okay. Please let me know if anything changes.
+Agent: Thank you for your patience. Have a good day.",property_listing,neutral,unresolved,medium,1,1,0,0
+conv_0215,english,"Agent: Good morning, welcome to RentEasy, Sneha here. What can I do for you today?
+Customer: The owner I contacted through your app stopped replying after I said I would visit.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 8979843968. The ID is RE376141. My email is user564@gmail.com. Can you please check this for me?
+Agent: Okay. I've spoken to the owner and scheduled your visit for tomorrow at 11 AM; you'll get an SMS confirmation.
+Customer: Thank you so much, that was really helpful!
+Agent: Thank you for your patience. Have a good day.",owner_unresponsive,positive,resolved,low,1,1,0,1
+conv_0217,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: There's a mistake in my rental agreement, the rent is written as Rs 5000, which is wrong.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 6324130818. The ID is RE787603. My email is user513@gmail.com. I just want to know the status and what happens next.
+Agent: Hmm, let me see. I've raised a correction request; the revised agreement will be delivered within 48 hours.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",rental_agreement,neutral,partially_resolved,medium,1,1,0,1
+conv_0218,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Neha. Kaise madad karun?
+Customer: Kal credit card se Rs 18500 rent pay kiya, owner bol raha hai paisa nahi aaya.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: 7699602642, aur ID RE885587 hai. Aapki service bilkul bekaar hai, koi sunta hi nahi.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Bank side pe transaction pending hai, jab tak bank update nahi karta kuch nahi ho sakta.
+Customer: Bilkul bekaar experience hai. Abhi tak kuch nahi hua.
+Agent: Dhanyavaad, aapka din accha ho.",payment_issue,negative,unresolved,high,1,1,1,1
+conv_0220,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Kavya. Kaise madad karun?
+Customer: Kya aapki service Jaipur mein available hai?
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 8123301671 hai, booking ID RE909000. Bas status jaanna tha.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Haan, hum wahan available hain, aur hum kabhi OTP nahi maangte.
+Customer: Bahut accha, shukriya!
+Agent: Dhanyavaad, aapka din accha ho.",other,positive,resolved,low,1,1,1,1
+conv_0221,hinglish,"Agent: Haan, boliye.
+Customer: Shifting mein mera fridge damage ho gaya aur do boxes missing hain.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: 7624282788, aur ID RE965814 hai. Please check kar dijiye.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Damage claim raise ho gaya hai, surveyor 48 hours mein aayega.
+Customer: Theek hai, update ka wait karunga.
+Agent: Dhanyavaad, aapka din accha ho.",packers_movers,neutral,partially_resolved,medium,0,1,1,1
+conv_0223,english,"Agent: Good morning, welcome to RentEasy, Imran here. What can I do for you today?
+Customer: Are your services available in Lucknow? I'm moving there next month.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 9381919481. The ID is RE189211. My email is user418@gmail.com. I am fed up with your service, this is unacceptable.
+Agent: Okay. I don't have information on that, sorry.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",other,negative,unresolved,high,1,1,0,1
+conv_0224,english,"Agent: Good morning, welcome to RentEasy, Rahul here. What can I do for you today?
+Customer: The plumber fixed the leak but it started leaking again the next day.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 8473992719. The ID is RE299742. My email is user338@gmail.com. Can you please check this for me?
+Agent: I understand, and I apologise for the trouble this has caused. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: Okay. Please let me know if anything changes.
+Agent: Thank you for your patience. Have a good day.",home_services,neutral,unresolved,medium,1,1,1,0
+conv_0226,english,"Agent: Hello, thank you for calling RentEasy support, this is Sneha. How may I help you?
+Customer: I was charged twice for the same rent payment transaction.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 8282879331, booking ID RE163029. I just want to know the status and what happens next.
+Agent: Okay. I checked with the gateway; the amount was credited to the owner this morning and I've sent the UTR to your email.
+Customer: Perfect, I appreciate the quick help.
+Agent: Thank you for your patience. Have a good day.",payment_issue,positive,resolved,low,1,1,0,1
+conv_0228,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: Your packers damaged my TV and a glass table during the move.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 6695861587, booking ID RE393804. Can you please check this for me?
+Agent: I understand, and I apologise for the trouble this has caused. The truck has been reassigned and the team will reach you in 30 minutes; I have confirmed it with the driver.
+Customer: Perfect, I appreciate the quick help.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",packers_movers,positive,resolved,low,1,1,1,1
+conv_0229,english,"Agent: Hello, thank you for calling RentEasy support, this is Sneha. How may I help you?
+Customer: The painter left the work half done and isn't answering calls.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 7431784498, booking ID RE821978. I just want to know the status and what happens next.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've raised a rework request; the team will call you by tomorrow to fix a slot.
+Customer: Okay, I'll wait for the update then.
+Agent: Thank you for your patience. Have a good day.",home_services,neutral,partially_resolved,medium,1,1,1,1
+conv_0236,english,"Agent: Yes, tell me the issue.
+Customer: I bought the Freedom plan for Rs 18500 but the relationship manager never called me.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 9540396677, booking ID RE563339. Can you please check this for me?
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've extended your plan by 30 days and assigned a new relationship manager who will call you today.
+Customer: Okay, noted.
+Agent: Thank you for your patience. Have a good day.",subscription_plan,neutral,resolved,low,0,1,1,1
+conv_0237,english,"Agent: Go ahead.
+Customer: I ordered a rental agreement 4 days ago and still haven't received the e-stamped copy.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 7588915267. The ID is RE885734. My email is user602@gmail.com. Honestly this is ridiculous, I am really frustrated.
+Agent: Hmm, let me see. I will escalate this to the documentation team, but I can't give you a timeline right now.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Thank you for your patience. Have a good day.",rental_agreement,negative,unresolved,high,0,1,0,1
+conv_0241,english,"Agent: Hello, thank you for calling RentEasy support, this is Neha. How may I help you?
+Customer: The plumber fixed the leak but it started leaking again the next day.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 8696116984. The ID is RE661916. My email is user29@gmail.com. This is the third time I am calling about this.
+Agent: Okay. I've raised a rework request; the team will call you by tomorrow to fix a slot.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",home_services,negative,partially_resolved,high,1,1,0,1
+conv_0242,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: Someone called me claiming to be from your company and asked for my OTP. Is that genuine?
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 9193198413. The ID is RE621199. My email is user908@gmail.com. This is the third time I am calling about this.
+Agent: I understand, and I apologise for the trouble this has caused. I've noted it and our team will email you the details within 24 hours.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",other,negative,partially_resolved,high,1,1,1,1
+conv_0243,english,"Agent: Hello, thank you for calling RentEasy support, this is Arjun. How may I help you?
+Customer: I was charged twice for the same rent payment transaction.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 8253861882, booking ID RE906859. I am fed up with your service, this is unacceptable.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. The transaction is pending with the bank; I cannot do anything until the bank updates it.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",payment_issue,negative,unresolved,high,1,1,1,1
+conv_0244,english,"Agent: Good morning, welcome to RentEasy, Kavya here. What can I do for you today?
+Customer: There's a mistake in my rental agreement, the rent is written as Rs 40000, which is wrong.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 7444542674. The ID is RE310297. My email is user207@gmail.com. I am fed up with your service, this is unacceptable.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I will escalate this to the documentation team, but I can't give you a timeline right now.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",rental_agreement,negative,unresolved,high,1,1,1,1
+conv_0245,english,"Agent: Good morning, welcome to RentEasy, Imran here. What can I do for you today?
+Customer: The refund of the advance I paid through your platform hasn't come yet.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: It's 7283905107, booking ID RE174703. Can you please check this for me?
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. The refund of Rs 25000 has been processed and will reflect in your account today.
+Customer: Thank you so much, that was really helpful!
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",deposit_refund,positive,resolved,low,1,1,1,1
+conv_0246,english,"Agent: Hello, thank you for calling RentEasy support, this is Vikram. How may I help you?
+Customer: Your packers damaged my TV and a glass table during the move. Can you please check this for me?
+Agent: Okay. The truck has been reassigned and the team will reach you in 30 minutes; I have confirmed it with the driver.
+Customer: Thank you so much, that was really helpful!
+Agent: Thank you for your patience. Have a good day.",packers_movers,positive,resolved,low,1,0,0,1
+conv_0247,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: The owner is refusing to return my security deposit of Rs 5000 even though I left the flat in good condition. This is the third time I am calling about this.
+Agent: I understand, and I apologise for the trouble this has caused. I've sent the refund to our finance team; it will be credited within 5 to 7 working days.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",deposit_refund,negative,partially_resolved,high,1,0,1,1
+conv_0248,english,"Agent: Good morning, welcome to RentEasy, Rahul here. What can I do for you today?
+Customer: I cancelled the booking and was promised a refund of my token amount of Rs 25000, but it's been 10 days.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 8672031195, booking ID RE583367. I just want to know the status and what happens next.
+Agent: Hmm, let me see. The refund of Rs 25000 has been processed and will reflect in your account today.
+Customer: Alright, I'll check it on my side.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",deposit_refund,neutral,resolved,low,1,1,0,1
+conv_0249,english,"Agent: Good morning, welcome to RentEasy, Arjun here. What can I do for you today?
+Customer: My UPI payment failed but the money was deducted from my account. Can you please check this for me?
+Agent: Hmm, let me see. The duplicate charge is confirmed; the reversal will reach your account within 5 to 7 working days.
+Customer: Okay, I'll wait for the update then.
+Agent: Thank you for your patience. Have a good day.",payment_issue,neutral,partially_resolved,medium,1,0,0,1
+conv_0252,english,"Agent: Hello, thank you for calling RentEasy support, this is Sneha. How may I help you?
+Customer: I bought the Freedom plan for Rs 12000 but the relationship manager never called me.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 9265643247, booking ID RE402483. I am fed up with your service, this is unacceptable.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've forwarded your request; the plans team will review it and update you within 48 hours.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",subscription_plan,negative,partially_resolved,high,1,1,1,1
+conv_0253,hinglish,"Agent: Haan, boliye.
+Customer: Kisi ne aapki company ke naam se call karke OTP maanga, kya yeh sahi hai? Please check kar dijiye.
+Agent: Ok, dekhta hoon. Haan, hum wahan available hain, aur hum kabhi OTP nahi maangte.
+Customer: Thank you, aapne bahut help kiya.
+Agent: Dhanyavaad, aapka din accha ho.",other,positive,resolved,low,0,0,0,1
+conv_0254,hinglish,"Agent: Namaste, RentEasy support se Vikram baat kar raha hoon. Bataiye kya help karun?
+Customer: Maine 4 din pehle property post ki thi, listing abhi tak live nahi hui.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 9655070355 hai, booking ID RE182034. Bas status jaanna tha.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Listing verification mein hai, 24 hours mein complete ho jayegi.
+Customer: Theek hai, update ka wait karunga.
+Agent: Dhanyavaad, aapka din accha ho.",property_listing,neutral,partially_resolved,medium,1,1,1,1
+conv_0255,english,"Agent: Hello, thank you for calling RentEasy support, this is Sneha. How may I help you?
+Customer: Two boxes are missing after my relocation from HSR Layout last week.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 8165946817. The ID is RE759868. My email is user494@gmail.com. I am fed up with your service, this is unacceptable.
+Agent: Okay. I will escalate this to the moving partner, but I can't promise any compensation.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",packers_movers,negative,unresolved,high,1,1,0,1
+conv_0256,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: The owner I contacted through your app stopped replying after I said I would visit.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 7807762976. The ID is RE568349. My email is user388@gmail.com. Can you please check this for me?
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've spoken to the owner and scheduled your visit for tomorrow at 11 AM; you'll get an SMS confirmation.
+Customer: Thank you so much, that was really helpful!
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",owner_unresponsive,positive,resolved,low,1,1,1,1
+conv_0258,english,"Agent: Good morning, welcome to RentEasy, Vikram here. What can I do for you today?
+Customer: Two boxes are missing after my relocation from Gachibowli last week. I am fed up with your service, this is unacceptable.
+Agent: I understand, and I apologise for the trouble this has caused. I've raised a damage claim; our surveyor will visit within 48 hours to assess compensation.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Thank you for your patience. Have a good day.",packers_movers,negative,partially_resolved,high,1,0,1,1
+conv_0259,english,"Agent: Hello, thank you for calling RentEasy support, this is Arjun. How may I help you?
+Customer: I paid my rent of Rs 25000 by credit card yesterday but the owner says it's not credited. Can you please check this for me?
+Agent: I understand, and I apologise for the trouble this has caused. I checked with the gateway; the amount was credited to the owner this morning and I've sent the UTR to your email.
+Customer: Okay, noted.
+Agent: Thank you for your patience. Have a good day.",payment_issue,neutral,resolved,low,1,0,1,1
+conv_0260,hinglish,"Agent: Namaste, RentEasy support se Arjun baat kar raha hoon. Bataiye kya help karun?
+Customer: Token amount Rs 2500 ka refund 12 din se pending hai.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: 6749276419, aur ID RE236217 hai. Aapki service bilkul bekaar hai, koi sunta hi nahi.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Finance team ko refund bhej diya hai, 5-7 working days mein aa jayega.
+Customer: Theek hai, par time pe nahi hua toh complaint karunga.
+Agent: Dhanyavaad, aapka din accha ho.",deposit_refund,negative,partially_resolved,high,1,1,1,1
+conv_0261,english,"Agent: Hello, thank you for calling RentEasy support, this is Kavya. How may I help you?
+Customer: My UPI payment failed but the money was deducted from my account.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 6377281586. The ID is RE952283. My email is user281@gmail.com. This is the third time I am calling about this.
+Agent: Hmm, let me see. The duplicate charge is confirmed; the reversal will reach your account within 5 to 7 working days.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",payment_issue,negative,partially_resolved,high,1,1,0,1
+conv_0262,hinglish,"Agent: Namaste, RentEasy support se Rahul baat kar raha hoon. Bataiye kya help karun?
+Customer: Owner ka number liya tha Whitefield wale flat ke liye, woh call hi nahi utha raha. Aapki service bilkul bekaar hai, koi sunta hi nahi.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Listing pe complaint raise kar dunga, par owner ko force nahi kar sakte.
+Customer: Bahut disappointed hoon, consumer forum mein complaint karunga.
+Agent: Dhanyavaad, aapka din accha ho.",owner_unresponsive,negative,unresolved,high,1,0,1,1
+conv_0263,english,"Agent: Good morning, welcome to RentEasy, Rahul here. What can I do for you today?
+Customer: The painter left the work half done and isn't answering calls.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 9230141431. The ID is RE694798. My email is user558@gmail.com. Can you please check this for me?
+Agent: Okay. I've raised a rework request; the team will call you by tomorrow to fix a slot.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",home_services,neutral,partially_resolved,medium,1,1,0,1
+conv_0264,hinglish,"Agent: Namaste, RentEasy support se Kavya baat kar raha hoon. Bataiye kya help karun?
+Customer: Maine 3 din pehle property post ki thi, listing abhi tak live nahi hui.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 9191120392 hai, booking ID RE763529. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Accha. Abhi mere side se kuch nahi ho sakta, aapko wait karna padega.
+Customer: Bahut disappointed hoon, consumer forum mein complaint karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",property_listing,negative,unresolved,high,1,1,0,0
+conv_0265,english,"Agent: Go ahead.
+Customer: I was charged twice for the same rent payment transaction. I am fed up with your service, this is unacceptable.
+Agent: Okay. The duplicate charge is confirmed; the reversal will reach your account within 5 to 7 working days.
+Customer: Fine, but if this isn't done by then I will raise a complaint.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",payment_issue,negative,partially_resolved,high,0,0,0,1
+conv_0266,hinglish,"Agent: Bataiye.
+Customer: Kal credit card se Rs 25000 rent pay kiya, owner bol raha hai paisa nahi aaya.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 8981262028 hai, booking ID RE932251. Please check kar dijiye.
+Agent: Aapki pareshani samajh sakta hoon, maafi chahta hoon. Double charge confirm hai, 5-7 working days mein paisa wapas aa jayega.
+Customer: Theek hai, update ka wait karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",payment_issue,neutral,partially_resolved,medium,0,1,1,1
+conv_0268,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Sneha. Kaise madad karun?
+Customer: Owner mera security deposit wapas nahi de raha, flat bilkul theek condition mein chhoda tha.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 6292643087 hai, booking ID RE193471. Please check kar dijiye.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Finance team ko refund bhej diya hai, 5-7 working days mein aa jayega.
+Customer: Theek hai, update ka wait karunga.
+Agent: Dhanyavaad, aapka din accha ho.",deposit_refund,neutral,partially_resolved,medium,1,1,1,1
+conv_0269,english,"Agent: Hello, thank you for calling RentEasy support, this is Rahul. How may I help you?
+Customer: The refund of the advance I paid through your platform hasn't come yet. I just want to know the status and what happens next.
+Agent: Okay. The refund of Rs 12000 has been processed and will reflect in your account today.
+Customer: Thank you so much, that was really helpful!
+Agent: Thank you for your patience. Have a good day.",deposit_refund,positive,resolved,low,1,0,0,1
+conv_0270,hinglish,"Agent: Bataiye.
+Customer: Agreement mein rent amount galat likha hai, correct karna hai. Please check kar dijiye.
+Agent: Accha. Maine agreement correct karke aapki email pe bhej diya hai, check kar lijiye.
+Customer: Bahut accha, shukriya!
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",rental_agreement,positive,resolved,low,0,0,0,1
+conv_0271,hinglish,"Agent: Haan, boliye.
+Customer: Kal credit card se Rs 25000 rent pay kiya, owner bol raha hai paisa nahi aaya. Please check kar dijiye.
+Agent: Ok, dekhta hoon. Double charge confirm hai, 5-7 working days mein paisa wapas aa jayega.
+Customer: Theek hai, update ka wait karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",payment_issue,neutral,partially_resolved,medium,0,0,0,1
+conv_0272,hinglish,"Agent: Namaste, RentEasy support se Sneha baat kar raha hoon. Bataiye kya help karun?
+Customer: Agreement mein rent amount galat likha hai, correct karna hai.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 7778627510 hai, booking ID RE476009. Please check kar dijiye.
+Agent: Ok, dekhta hoon. Correction request daal di hai, 48 hours mein updated copy mil jayegi.
+Customer: Theek hai, update ka wait karunga.
+Agent: Dhanyavaad, aapka din accha ho.",rental_agreement,neutral,partially_resolved,medium,1,1,0,1
+conv_0273,english,"Agent: Go ahead.
+Customer: My shifting was scheduled for today at 9 AM and the movers' truck still hasn't arrived.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 6542055365. The ID is RE998602. My email is user544@gmail.com. I just want to know the status and what happens next.
+Agent: Okay. The truck has been reassigned and the team will reach you in 30 minutes; I have confirmed it with the driver.
+Customer: Thank you so much, that was really helpful!
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",packers_movers,positive,resolved,low,0,1,0,1
+conv_0274,english,"Agent: Good morning, welcome to RentEasy, Priya here. What can I do for you today?
+Customer: The refund of the advance I paid through your platform hasn't come yet.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 6557089367. The ID is RE656921. My email is user413@gmail.com. I just want to know the status and what happens next.
+Agent: Okay. I've sent the refund to our finance team; it will be credited within 5 to 7 working days.
+Customer: Okay, I'll wait for the update then.
+Agent: Thank you for your patience. Have a good day.",deposit_refund,neutral,partially_resolved,medium,1,1,0,1
+conv_0276,english,"Agent: Good morning, welcome to RentEasy, Imran here. What can I do for you today?
+Customer: The refund of the advance I paid through your platform hasn't come yet.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 6219149420. The ID is RE501557. My email is user384@gmail.com. Honestly this is ridiculous, I am really frustrated.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I'm afraid there is nothing I can do from my side right now, please wait.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",deposit_refund,negative,unresolved,high,1,1,1,0
+conv_0277,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Arjun. Kaise madad karun?
+Customer: Kisi ne aapki company ke naam se call karke OTP maanga, kya yeh sahi hai? Bas status jaanna tha.
+Agent: Ok, dekhta hoon. Haan, hum wahan available hain, aur hum kabhi OTP nahi maangte.
+Customer: Thank you, aapne bahut help kiya.
+Agent: Dhanyavaad, aapka din accha ho.",other,positive,resolved,low,1,0,0,1
+conv_0278,english,"Agent: Hello, thank you for calling RentEasy support, this is Arjun. How may I help you?
+Customer: Your packers damaged my TV and a glass table during the move. Can you please check this for me?
+Agent: Okay. The truck has been reassigned and the team will reach you in 30 minutes; I have confirmed it with the driver.
+Customer: Okay, noted.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",packers_movers,neutral,resolved,low,1,0,0,1
+conv_0280,english,"Agent: Good morning, welcome to RentEasy, Priya here. What can I do for you today?
+Customer: I booked deep cleaning for today and the team never showed up.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 7764249151, booking ID RE268600. This is the third time I am calling about this.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. No technicians are available in your area this week, so I cannot book anything right now.
+Customer: This is useless. I'm going to take this to the consumer forum.
+Agent: Thank you for your patience. Have a good day.",home_services,negative,unresolved,high,1,1,1,1
+conv_0281,english,"Agent: Good morning, welcome to RentEasy, Imran here. What can I do for you today?
+Customer: I booked deep cleaning for today and the team never showed up. I just want to know the status and what happens next.
+Agent: Hmm, let me see. I've raised a rework request; the team will call you by tomorrow to fix a slot.
+Customer: Okay, I'll wait for the update then.
+Agent: Thank you for your patience. Have a good day.",home_services,neutral,partially_resolved,medium,1,0,0,1
+conv_0284,english,"Agent: Go ahead.
+Customer: Two boxes are missing after my relocation from Gachibowli last week. I just want to know the status and what happens next.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. The truck has been reassigned and the team will reach you in 30 minutes; I have confirmed it with the driver.
+Customer: Okay, noted.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",packers_movers,neutral,resolved,low,0,0,1,1
+conv_0285,english,"Agent: Hello, thank you for calling RentEasy support, this is Priya. How may I help you?
+Customer: I cancelled the booking and was promised a refund of my token amount of Rs 8000, but it's been 12 days. Can you please check this for me?
+Agent: Hmm, let me see. Deposit disputes between tenant and owner are outside our scope, so I can't intervene there.
+Customer: Okay. Please let me know if anything changes.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",deposit_refund,neutral,unresolved,medium,1,0,0,1
+conv_0286,english,"Agent: Good morning, welcome to RentEasy, Priya here. What can I do for you today?
+Customer: My UPI payment failed but the money was deducted from my account. Can you please check this for me?
+Agent: I understand, and I apologise for the trouble this has caused. I checked with the gateway; the amount was credited to the owner this morning and I've sent the UTR to your email.
+Customer: Okay, noted.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",payment_issue,neutral,resolved,low,1,0,1,1
+conv_0288,english,"Agent: Go ahead.
+Customer: The owner I contacted through your app stopped replying after I said I would visit.
+Agent: Before I check, please confirm your registered mobile number and request ID.
+Customer: Sure, 6742916320. The ID is RE889188. My email is user181@gmail.com. I just want to know the status and what happens next.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I've spoken to the owner and scheduled your visit for tomorrow at 11 AM; you'll get an SMS confirmation.
+Customer: Okay, noted.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",owner_unresponsive,neutral,resolved,low,0,1,1,1
+conv_0291,hinglish,"Agent: Namaste, RentEasy support se Priya baat kar raha hoon. Bataiye kya help karun?
+Customer: Rs 8000 ka plan liya tha, relationship manager ne ek baar bhi call nahi kiya. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Main samajh sakta hoon, inconvenience ke liye sorry. Policy ke hisaab se plan non-refundable hai, kuch nahi kar sakte.
+Customer: Bahut disappointed hoon, consumer forum mein complaint karunga.
+Agent: Aur kuch help chahiye? RentEasy call karne ke liye dhanyavaad.",subscription_plan,negative,unresolved,high,1,0,1,1
+conv_0292,english,"Agent: Yes, tell me the issue.
+Customer: There's a mistake in my rental agreement, the rent is written as Rs 2500, which is wrong.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: It's 6667836278, booking ID RE327538. I am fed up with your service, this is unacceptable.
+Agent: I'm really sorry for the inconvenience, I understand how frustrating this must be. I will escalate this to the documentation team, but I can't give you a timeline right now.
+Customer: I'm really disappointed. Nothing has been done after so many calls.
+Agent: Thank you for your patience. Have a good day.",rental_agreement,negative,unresolved,high,0,1,1,1
+conv_0293,english,"Agent: Good morning, welcome to RentEasy, Neha here. What can I do for you today?
+Customer: I bought the Freedom plan for Rs 5000 but the relationship manager never called me. Can you please check this for me?
+Agent: Hmm, let me see. I've extended your plan by 30 days and assigned a new relationship manager who will call you today.
+Customer: Perfect, I appreciate the quick help.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",subscription_plan,positive,resolved,low,1,0,0,1
+conv_0294,english,"Agent: Good morning, welcome to RentEasy, Vikram here. What can I do for you today?
+Customer: The landlord's name is spelled wrong in the agreement you sent, I need it corrected before signing. I just want to know the status and what happens next.
+Agent: Okay. I've raised a correction request; the revised agreement will be delivered within 48 hours.
+Customer: Okay, I'll wait for the update then.
+Agent: Is there anything else I can help you with? Thank you for calling RentEasy.",rental_agreement,neutral,partially_resolved,medium,1,0,0,1
+conv_0295,english,"Agent: Good morning, welcome to RentEasy, Rahul here. What can I do for you today?
+Customer: My shifting was scheduled for today at 9 AM and the movers' truck still hasn't arrived.
+Agent: Can I have your registered mobile number and booking ID, please?
+Customer: Sure, 8315031290. The ID is RE723861. My email is user874@gmail.com. I just want to know the status and what happens next.
+Agent: Hmm, let me see. I've raised a damage claim; our surveyor will visit within 48 hours to assess compensation.
+Customer: Okay, I'll wait for the update then.
+Agent: Thank you for your patience. Have a good day.",packers_movers,neutral,partially_resolved,medium,1,1,0,1
+conv_0297,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Vikram. Kaise madad karun?
+Customer: Owner ka number liya tha Baner wale flat ke liye, woh call hi nahi utha raha. Yeh teesri baar call kar raha hoon, bahut pareshan hoon.
+Agent: Ok, dekhta hoon. Contact aapke account mein wapas credit kar diya hai, owner se baat karke 24 hours mein update denge.
+Customer: Theek hai, par time pe nahi hua toh complaint karunga.
+Agent: Dhanyavaad, aapka din accha ho.",owner_unresponsive,negative,partially_resolved,high,1,0,0,1
+conv_0299,english,"Agent: Good morning, welcome to RentEasy, Priya here. What can I do for you today?
+Customer: I booked deep cleaning for today and the team never showed up. I just want to know the status and what happens next.
+Agent: I understand, and I apologise for the trouble this has caused. No technicians are available in your area this week, so I cannot book anything right now.
+Customer: Okay. Please let me know if anything changes.
+Agent: Thank you for your patience. Have a good day.",home_services,neutral,unresolved,medium,1,0,1,1
+conv_0300,hinglish,"Agent: Hello, RentEasy mein aapka swagat hai, main Kavya. Kaise madad karun?
+Customer: Agreement mein rent amount galat likha hai, correct karna hai.
+Agent: Aapka registered mobile number aur booking ID bata dijiye?
+Customer: Number 8140133915 hai, booking ID RE583298. Bas status jaanna tha.
+Agent: Accha. Maine agreement correct karke aapki email pe bhej diya hai, check kar lijiye.
+Customer: Thank you, aapne bahut help kiya.
+Agent: Dhanyavaad, aapka din accha ho.",rental_agreement,positive,resolved,low,1,1,0,1

@@ -1,0 +1,10 @@
+gold,__invalid__,deposit_refund,home_services,other,owner_unresponsive,packers_movers,payment_issue,property_listing,rental_agreement,subscription_plan
+deposit_refund,0,14,0,0,0,0,0,0,0,0
+home_services,0,0,12,0,0,0,0,0,0,0
+other,0,0,0,2,0,0,0,0,0,0
+owner_unresponsive,0,0,0,0,11,0,0,0,0,0
+packers_movers,0,0,0,0,0,16,0,0,0,0
+payment_issue,1,0,0,0,0,0,7,0,0,0
+property_listing,0,0,0,0,0,0,0,15,0,0
+rental_agreement,0,0,0,0,0,0,0,0,9,0
+subscription_plan,2,0,0,0,0,0,0,0,0,11
